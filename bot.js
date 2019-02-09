@@ -5,11 +5,11 @@ const Canvas = require("canvas");
 const jimp = require("jimp");
 const moment = require('moment');
 const yt = require('ytdl-core');
-const prefix = '>'
+const prefix = '#'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(">Help - For Help");
+client.user.setGame("#Help | DragonsEmpire ");
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
